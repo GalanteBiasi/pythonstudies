@@ -1,17 +1,17 @@
 menu = """
-------------------------------   MENU  ------------------------------
-                        [d] - Depositar
-                        [s] - Sacar
-                        [e] - Extrato
-                        [q] - Sair
---------------------------------------------------------------------
+|-----------------------------   MENU  -----------------------------|
+|                                                                   |
+|          [d] - Depositar                  [s] - Sacar             |
+|          [e] - Extrato                    [q] - Sair              |
+|                                                                   |
+|-------------------------------------------------------------------|
 """
 
 saldo = 0
-limite = 500
+limite = 1000
 extrato = ""
 numero_saques = 0
-LIMITE_SAQUES = 3
+LIMITE_SAQUES = 5
 
 while True:
     opcao  = input(menu)
